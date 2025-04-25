@@ -1,2 +1,33 @@
-# Diabetes-Prediction
-This project provides an easy-to-use web application for predicting whether a patient is diabetic based on health metrics using a trained machine learning model. The app is built with Streamlit, and the model is trained and saved using scikit-learn. Users can input features like glucose level, BMI, age, and more, and receive real-time predictions.
+# 🩺 Diabetes Prediction App
+
+A simple and interactive web application built with **Streamlit** that predicts whether a person is diabetic or not using a machine learning model trained on health data.
+
+---
+
+## 🔍 Overview
+
+This project uses a trained Random Forest classifier to predict diabetes based on:
+
+- Pregnancies
+- Glucose
+- Blood Pressure
+- Skin Thickness
+- BMI
+- Diabetes Pedigree Function
+- Age
+
+
+## 🚀 Features
+
+- Intuitive web UI using Streamlit
+- Real-time predictions
+- Clear visual feedback on prediction
+- Sidebar input form
+- Background styling and custom design
+
+## 🛠️ Installation & Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/diabetes-predictor.git
+   cd diabetes-predictor
